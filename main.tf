@@ -32,7 +32,7 @@ resource "aws_ami_from_instance" "ami" {
   lifecycle {
     ignore_changes = [
       name
-      ## Only for one IMAge a Day, if we need a second AMI then code need changes.
+      ## Only for one IMAge a Day, if we eneed a second AMI then code need changes.
     ]
   }
 }
